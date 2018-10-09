@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automations on TestNg Basics" verbose="1" >
+  <test name="Different testng features test" >
+  
+    <parameter name="browser" value="chrome"/>  
+    <parameter name="url" value="https://login.yahoo.com/"/>
+    <parameter name="emailId" value="naveen@yahoo.com"/>
+    
+    <classes>
+      <class name="com.test.ExceptionTimeOutTest"/>
+      <class name="com.test.TestNgFeatures"/>
+      <class name="com.test.ParameterAnnotationTest"/>
+    </classes>
+    
+ </test>
+</suite>
