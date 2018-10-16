@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10219" started-at="2018-10-16T11:18:17Z" finished-at="2018-10-16T11:18:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10219" started-at="2018-10-16T11:18:17Z" finished-at="2018-10-16T11:18:27Z">
+      <class name="com.test.DownloadFileConcept">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.DownloadFileConcept@3c0f93f1]" name="setUp" is-config="true" duration-ms="4219" started-at="2018-10-16T11:18:17Z" finished-at="2018-10-16T11:18:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="downloadFileTest()[pri:0, instance:com.test.DownloadFileConcept@3c0f93f1]" name="downloadFileTest" duration-ms="5322" started-at="2018-10-16T11:18:21Z" finished-at="2018-10-16T11:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadFileTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DownloadFileConcept@3c0f93f1]" name="tearDown" is-config="true" duration-ms="652" started-at="2018-10-16T11:18:26Z" finished-at="2018-10-16T11:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.DownloadFileConcept -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
